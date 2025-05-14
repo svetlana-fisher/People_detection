@@ -1,0 +1,5 @@
+path: C:\Users\sveta\Documents\People_detection\drone_dataset
+train: images\train
+val: images\val
+names:
+  0: human
