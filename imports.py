@@ -1,7 +1,7 @@
 import os
 import random
 from torch.utils.data import DataLoader, Dataset
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
 import cv2
 import torch
 import pandas as pd
@@ -11,7 +11,7 @@ from PIL import Image
 from torchvision import transforms
 from sklearn.model_selection import train_test_split
 
-main_dir = "C:\\Users\\sveta\\Documents\\People_detection"
+main_dir = "C:\\Users\\sveta\\Documents\\People_detection2.0"
 
 dataset_path = f"{main_dir}\\drone_dataset\\train"
 csv_path = f"{main_dir}\\drone_dataset\\_annotations.csv"
